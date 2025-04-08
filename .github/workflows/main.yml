@@ -10,7 +10,13 @@ jobs:
   update-readme:
     name: Update this repo's README
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
+      - uses: actions/checkout@v2
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
