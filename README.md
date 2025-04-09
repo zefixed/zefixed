@@ -23,7 +23,7 @@ func main() {
     me := BackendDeveloper{
         Name:           "Ilya Gerasenkov",
         Role:           "Backend Developer",
-        LanguageSpoken: []string{"ru_Ru", "en_US"},
+        LanguageSpoken: []string{"ru_RU", "en_US"},
         Links:          []string{"https://t.me/zefixed"}
     }
     me.SayHi()
