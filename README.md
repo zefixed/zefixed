@@ -71,7 +71,7 @@ func main() {
 
 <p align="center">
   <a href="https://github.com/zefixed">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zefixed&theme=synthwave&layout=compact&border_color=FF79C6&card_width=495" alt="zefixed" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zefixed&theme=synthwave&layout=compact&border_color=FF79C6&card_width=495&exclude_repo=bspwm-dotfiles" alt="zefixed" />
   </a>
 </p>
 
